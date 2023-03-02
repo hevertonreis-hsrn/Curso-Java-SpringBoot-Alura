@@ -5,8 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f23b70c-29e1-4cbc-b47d-251424c82a8e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_auth0_java_jwt_4_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_6_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_6_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_6_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_6_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_6_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/controller/AutenticacaoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/domain/usuario/AutenticacaoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/domain/usuario/DadosAutenticacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/domain/usuario/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/domain/usuario/UsuarioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/infra/security/SecurityConfigurations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/infra/security/TokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/resources/db/migration/V5__create-table-usuarios.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/infra/TratadorDeErros.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/infra/TratadorDeErros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/infra/TratadorDeErros.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/infra/exception/TratadorDeErros.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +33,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Record" />
         <option value="Class" />
       </list>
@@ -39,24 +57,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Workspace/Alura/Curso-Java-SpringBoot-Alura/api/src/main/resources/db/migration&quot;,
-    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Workspace/Alura/Curso-Java-SpringBoot-Alura/api/src/main/resources/db/migration",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "build.tools"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="med.voll.api.domain.usuario" />
       <recent name="med.voll.api.paciente" />
       <recent name="med.voll.api.medico" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Workspace\Alura\Curso-Java-SpringBoot-Alura\api\src\main\resources\db\migration" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="med.voll.api.infra.exception" />
     </key>
   </component>
   <component name="RunManager">
