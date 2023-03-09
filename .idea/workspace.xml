@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f23b70c-29e1-4cbc-b47d-251424c82a8e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/controller/ConsultaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/domain/ValidacaoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/domain/consulta/AgendaDeConsultas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/domain/consulta/Consulta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/domain/consulta/ConsultaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/domain/consulta/DadosAgendamentoConsulta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/domain/consulta/DadosDetalhamentoConsulta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/resources/db/migration/V6__create-table-consultas.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/infra/security/SecurityConfigurations.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/infra/security/SecurityConfigurations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/infra/security/SecurityFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/infra/security/SecurityFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Record" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -55,10 +61,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="med.voll.api.domain" />
+      <recent name="med.voll.api.domain.consulta" />
       <recent name="med.voll.api.infra.security" />
       <recent name="med.voll.api.domain.usuario" />
       <recent name="med.voll.api.paciente" />
-      <recent name="med.voll.api.medico" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Workspace\Alura\Curso-Java-SpringBoot-Alura\api\src\main\resources\db\migration" />
