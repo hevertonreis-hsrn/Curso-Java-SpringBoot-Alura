@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f23b70c-29e1-4cbc-b47d-251424c82a8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/controller/ConsultaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/domain/ValidacaoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/domain/consulta/AgendaDeConsultas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/domain/consulta/Consulta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/domain/consulta/ConsultaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/domain/consulta/DadosAgendamentoConsulta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/domain/consulta/DadosDetalhamentoConsulta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/resources/db/migration/V6__create-table-consultas.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/domain/consulta/AgendaDeConsultas.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/domain/consulta/AgendaDeConsultas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/domain/consulta/DadosAgendamentoConsulta.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/domain/consulta/DadosAgendamentoConsulta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/domain/medico/MedicoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/domain/medico/MedicoRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
