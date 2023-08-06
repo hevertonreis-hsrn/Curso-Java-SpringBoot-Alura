@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f23b70c-29e1-4cbc-b47d-251424c82a8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api/src/main/resources/application-test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/test/java/med/voll/api/controller/ConsultaControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/test/java/med/voll/api/domain/medico/MedicoRepositoryTest.java" afterDir="false" />
+    <list default="true" id="720583fb-002e-447a-9cad-1e30c0bab732" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/api/src/main/resources/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/infra/springdoc/SpringDocConfigurations.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/infra/springdoc/SpringDocConfigurations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/test/java/med/voll/api/ApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/test/java/med/voll/api/controller/ConsultaControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/test/java/med/voll/api/controller/ConsultaControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Workspace/Alura/Curso-Java-SpringBoot-Alura/api/src/main/resources",
+    "last_opened_file_path": "C:/Users/Heverton Reis/Documents/Curso-Java-SpringBoot-Alura/api/src/main/resources",
     "settings.build.tools.auto.reload": "ALL",
     "settings.editor.selected.configurable": "build.tools"
   }
@@ -71,6 +71,7 @@
       <recent name="med.voll.api.paciente" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Heverton Reis\Documents\Curso-Java-SpringBoot-Alura\api\src\main\resources" />
       <recent name="C:\Workspace\Alura\Curso-Java-SpringBoot-Alura\api\src\main\resources" />
       <recent name="C:\Workspace\Alura\Curso-Java-SpringBoot-Alura\api\src\main\resources\db\migration" />
     </key>
@@ -85,16 +86,42 @@
       <recent name="med.voll.api.domain.medico" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MedicoRepositoryTest.escolherMedicoAleatorioLivreNaDataCenario2">
-    <configuration name="ApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="med.voll.api.ApiApplication" />
+  <component name="RunManager" selected="JUnit.MedicoRepositoryTest.escolherMedicoAleatorioLivreNaDataCenario1">
+    <configuration name="All in api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsultaControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="med.voll.api.*" />
+          <option name="PATTERN" value="med.voll.api.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="med.voll.api.controller" />
+      <option name="MAIN_CLASS_NAME" value="med.voll.api.controller.ConsultaControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsultaControllerTest.agendar_cenario2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="med.voll.api.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="med.voll.api.controller" />
+      <option name="MAIN_CLASS_NAME" value="med.voll.api.controller.ConsultaControllerTest" />
+      <option name="METHOD_NAME" value="agendar_cenario2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,40 +157,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MedicoRepositoryTest.escolherMedicoAleatorioLivreNaDataCenario2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="med.voll.api.domain.medico.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="med.voll.api.domain.medico" />
-      <option name="MAIN_CLASS_NAME" value="med.voll.api.domain.medico.MedicoRepositoryTest" />
-      <option name="METHOD_NAME" value="escolherMedicoAleatorioLivreNaDataCenario2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MedicoRepositoryTest.escolherMedicoAleatorioLivreNaDataCenario2" />
         <item itemvalue="JUnit.MedicoRepositoryTest.escolherMedicoAleatorioLivreNaDataCenario1" />
         <item itemvalue="JUnit.MedicoRepositoryTest" />
-        <item itemvalue="Application.ApiApplication" />
+        <item itemvalue="JUnit.All in api" />
+        <item itemvalue="JUnit.ConsultaControllerTest.agendar_cenario2" />
+        <item itemvalue="JUnit.ConsultaControllerTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4f23b70c-29e1-4cbc-b47d-251424c82a8e" name="Changes" comment="" />
+      <changelist id="720583fb-002e-447a-9cad-1e30c0bab732" name="Changes" comment="" />
       <created>1677504455797</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677504455797</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
